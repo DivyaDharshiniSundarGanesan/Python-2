@@ -32,7 +32,7 @@ class Polynomial:
                 return
         previous=current
         current.next
-     def display(self):
+def display(self):
         current=self.head
         terms=[]
         while current:
@@ -72,3 +72,4 @@ P3=P1.merge(P2)
 P3.display()
 P1.delete(2)
 P1.display()
+  
