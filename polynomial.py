@@ -31,8 +31,7 @@ class Polynomial:
                     previous.next=current.next
                 return
             previous=current
-            current=
-            current.next
+            current=current.next
     def display(self):
         current=self.head
         terms=[]
